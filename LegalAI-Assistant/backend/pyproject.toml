@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "legalai-assistant-backend"
+version = "0.1.0"
+description = "Backend for LegalAI Assistant"
+authors = ["Robert Le <robertle982@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+sqlalchemy = "^1.4.23"
+pydantic = "^1.8.2"
+python-multipart = "^0.0.5"
+transformers = "^4.11.3"
+torch = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

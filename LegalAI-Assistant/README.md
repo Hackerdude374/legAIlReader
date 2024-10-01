@@ -44,3 +44,10 @@ Push to the main branch to trigger the CI/CD pipeline.
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+## DOCKER COMMANDS
+docker-compose -f infra/docker-compose.yml down
+docker-compose -f infra/docker-compose.yml build --no-cache
+docker-compose -f infra/docker-compose.yml up
